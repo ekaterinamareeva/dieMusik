@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>dieMusik</title>
+    <style type="text/css">
+        body {
+            background-color: #E0CBEA;
+            margin: 25px;
+            font-size: 20px;
+        }
+        .active {
+            background-color: #D8BDE5;
+            padding: 5px 5px;
+            font-style: italic;
+        }
+        .foto {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.foto img {
+    width: 250px;
+    height: 250px;
+}
+
+    </style>
+</head>
+
+<body>
+<h1 id="start" align="center">dieMusik</h1>
+    <div align="center">
+        <a href="index.html">Главная</a>
+        <a href="albums.html">Альбомы</a>
+        <a href="form.html" class="active">Форма</a>
+        <a href="pasport.html">Паспорт</a>
+        <a href="alg.html">Алгоритм</a>
+    </div>
+<br>
+<h2 align="center">Хотите приобрести виниловую пластинку?</h2><br>
+<h3>Оставьте свои контактные данные:</h3>
+<form action="https://www.ya.ru" target="_blank">
+    <p>
+        Фамилия:
+        <input type="text" name="surname">
+    </p>
+    <p>
+        Имя:
+        <input type="text" name="name">
+    </p>
+    <p>
+        Группа:
+        <input type="text" name="group">
+    </p>
+    <p>
+        Мобильный телефон:
+        <input type="tel" name="mobil_phone">
+    </p>
+    <p>
+        Электронная почта:
+        <input type="text" name="email">
+    </p>
+    <p>
+        Дата отправки:
+        <input type="date" name="date">
+    </p>
+    <p>
+        Пароль:
+        <input type="password" name="password">
+    </p>
+    <p>
+        <input type="Reset" name="Reset" value="Очистить">
+        <input type="submit" name="submit" value="Отправить">
+    </p>
+</form>
+<br>
+<h3>А теперь можете выбрать альбом и условия заказа:</h3>
+
+<form action="https://www.ya.ru" target="_blank">
+    <p>
+        Альбом(ы):
+        <br><br>
+        <input type="Checkbox" name="album" value="1989" checked>Taylor Swift - 1989
+        <br>
+        <input type="Checkbox" name="album" value="Nightmare">Arctic Monkeys - Favourite Worst Nightmare
+        <br>
+        <input type="Checkbox" name="album" value="Eminem">Eminem - The Eminem Show
+        <br>
+        <input type="Checkbox" name="album" value="HIT">Billie Eilish - HIT ME HARD AND SOFT
+        <br>
+        <input type="Checkbox" name="album" value="News">Queen - News Of The World
+        <br>
+        <input type="Checkbox" name="album" value="Oops">Britney Spears - Oops!...I Did It Again
+    </p>
+
+    <p>
+        Способ оплаты:<br><br>
+        <input type="radio" name="payment" value="card" checked>По карте
+        <br>
+        <input type="radio" name="payment" value="cash">Наличными
+    </p>
+    <p>
+        Дата доставки:
+        <input type="date" name="delivery_date" value="2026-10-21">
+    </p>
+    <p>
+        Код для доставки:
+        <input type="password" name="password">
+    </p>
+    <p>
+        Комментарий к заказу:<br><br>
+        <textarea cols=40 rows=4 name="comment" >Оставить заказ у двери </textarea>
+    </p>
+    <p>
+        Оцените работу сайта от 1 до 10:
+        <input type="number" name="quantity" value="10" min="1" max="10">
+    </p>
+    <input type="hidden" name="site" value="dieMusik">
+    <input type="Reset" name="Reset" value="Очистить">
+    <input type="submit" name="submit" value="Оформить заказ">
+</form>
+<br>
+<a href="#start">К началу</a>
+
+</body>
+</html>

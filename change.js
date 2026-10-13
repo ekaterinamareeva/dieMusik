@@ -20,7 +20,7 @@ function my_fun(){
             document.getElementsByTagName('div')[4].innerHTML = 'Екатерина'
             document.getElementsByTagName('div')[5].innerHTML = 'Александровна'
             document.getElementsByTagName('div')[6].innerHTML = 'жен &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 14/05/2007'
-            document.getElementsByTagName('div')[1].innerHTML = 'Выдан МВД Росии по г. Москве'
+            document.getElementsByTagName('div')[1].innerHTML = 'Выдан МВД Росcии по г. Москве'
             document.getElementsByTagName('div')[7].innerHTML='Город Москва'
 
         }

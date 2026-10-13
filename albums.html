@@ -9,28 +9,48 @@
             margin: 25px;
             font-size: 20px;
         }
-        .active {
-            background-color: #D8BDE5;
-            padding: 5px 5px;
-            font-style: italic;
+        nav a {
+        background-color: #D8BDE5;
+        color: #4B2863;
+        text-decoration: none;
+        padding: 8px 12px;
+        margin: 5px;
+        border-radius: 8px;
+        }
+
+        nav a.active {
+        background-color: #8A5AA5;
+        color: white;
+        font-style: italic;
         }
         .foto {
     display: inline-block;
     width: 30%;
     margin: 10px;
     text-align: center;
-}
+    }
 
 .foto img {
     width: 250px;
     height: 250px;
+    border-radius: 10px;
+    outline: 2px solid #8A5AA5;
+    outline-offset: 5px;
+}
+
+    .title {
+    text-align: center;
+    color: #4B2863;
+    font-size: 60px;
+    font-style: italic;
 }
 
     </style>
 </head>
 
-<body>
-<h1 id="start" align="center">dieMusik</h1>
+<body style="font-family: Georgia">
+<nav>
+<h1 id="start" align="center" class="title">♫dieMusik♫</h1>
     <div align="center">
         <a href="index.html">Главная</a>
         <a href="albums.html" class="active">Альбомы</a>
@@ -38,6 +58,7 @@
         <a href="pasport.html">Паспорт</a>
         <a href="alg.html">Алгоритм</a>
     </div>
+</nav>
 <br>
 <p>Для тех, кому хотелось бы самостоятельно услышать различия музыкальных жанров, ниже представлены рекомендации музыкальных альбомов, которые помогут разобраться в жанрах.  </p>
 <br>

@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <title>dieMusik</title>
     <style type="text/css">
+        a {
+        background-color: #D8BDE5;
+        color: #4B2863;
+        text-decoration: none;
+        padding: 8px 12px;
+        margin: 5px;
+        border-radius: 8px;
+        }
         body {
             background-color: #E0CBEA;
             margin: 25px;
             font-size: 20px;
         }
         .active {
-            background-color: #D8BDE5;
-            padding: 5px 5px;
+            background-color: #8A5AA5;
+            color: white;
+            padding: 10px 16px;
             font-style: italic;
+            font-weight: bold;
         }
         .foto {
     display: inline-block;
@@ -24,13 +34,23 @@
 .foto img {
     width: 250px;
     height: 250px;
+    border-radius: 10px;
+    outline: 2px solid #8A5AA5;
+    outline-offset: 5px;
 }
+
+    .title {
+    text-align: center;
+    color: #4B2863;
+    font-size: 60px;
+    font-style: italic;
+    }
 
     </style>
 </head>
 
-<body>
-<h1 id="start" align="center">dieMusik</h1>
+<body style="font-family: Georgia">
+<h1 id="start" align="center" class="title">♫dieMusik♫</h1>
     <div align="center">
         <a href="index.html">Главная</a>
         <a href="albums.html">Альбомы</a>
@@ -39,8 +59,8 @@
         <a href="alg.html">Алгоритм</a>
     </div>
 <br>
-<h2 align="center">Хотите приобрести виниловую пластинку?</h2><br>
-<h3>Оставьте свои контактные данные:</h3>
+<h2 align="center" style="font-family: Trebuchet MS">Хотите приобрести виниловую пластинку?</h2><br>
+<h3 style="font-family: Trebuchet MS">Оставьте свои контактные данные:</h3>
 <form action="https://www.ya.ru" target="_blank">
     <p>
         Фамилия:
@@ -76,7 +96,7 @@
     </p>
 </form>
 <br>
-<h3>А теперь можете выбрать альбом и условия заказа:</h3>
+<h3 style="font-family: Trebuchet MS">А теперь можете выбрать альбом и условия заказа:</h3>
 
 <form action="https://www.ya.ru" target="_blank">
     <p>
